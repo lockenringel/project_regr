@@ -7,7 +7,7 @@ Created on Sun Apr 10 23:06:49 2016
 
 import csv
  
-with open('/home/t0rqu3/Desktop/Dropbox/220/nerds_love3.csv', 'rU') as infile:
+with open('way_to_file', 'rU') as infile:
    reader = csv.DictReader(infile)
    data = {}
    for row in reader:
